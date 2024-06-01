@@ -46,7 +46,7 @@ public class UserRestControl {
 	@DeleteMapping("/remove-user/{user-id}") 
 	public void removeUser(@PathVariable("user-id") String userId) { 
 		userService.deleteUser(userId);
-	} 
+	}  
 
 	// Modifier User 
 	// http://localhost:????/timesheet-devops/modify-user 
